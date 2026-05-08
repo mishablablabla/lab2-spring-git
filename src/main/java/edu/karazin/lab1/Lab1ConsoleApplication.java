@@ -17,7 +17,7 @@ public class Lab1ConsoleApplication {
 		return args -> {
 			int value = 6;
 			long result = factorialService.factorial(value);
-			System.out.println("Lab 1 result:");
+			System.out.println("Version from feature branch");
 			System.out.println("Factorial(" + value + ") = " + result);
 		};
 	}
